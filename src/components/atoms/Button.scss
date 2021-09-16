@@ -1,0 +1,35 @@
+.button {
+  border: none;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 12px 16px;
+  border-radius: 4px;
+  line-height: 16px;
+  font-size: 12px;
+  width: fit-content;
+  font-weight: 700;
+  color: var(--light-neutral-800);
+  text-transform: uppercase;
+
+  svg {
+    margin-left: 10px;
+  }
+}
+
+.button-200 {
+  background-color: var(--light-neutral-200);
+}
+
+.button-suscribite {
+  background-color: var(--yellow-500);
+  border: 1px solid #cccccc;
+}
+
+.button-ingresar {
+  background-color: #fff;
+  color: var(--light-blue-500);
+  border: 1px solid var(--light-blue-500);
+}

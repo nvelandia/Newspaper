@@ -1,9 +1,11 @@
+import Header from "./components/molecules/Header";
+import Main from "./components/organism/Main";
+
 function App() {
   return (
     <div className="App">
-      <p>La Nacion</p>
-      <p className="title-normal">La Nacion</p>
-      <p className="title-bold">La Nacion</p>
+      <Header />
+      <Main />
     </div>
   );
 }
